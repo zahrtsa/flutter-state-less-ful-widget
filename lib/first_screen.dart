@@ -16,6 +16,7 @@ class FirstScreen extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Container(
+              margin: EdgeInsets.symmetric(vertical: 275.0, horizontal: 25.0),
               child: IconButton(
                 icon: Icon(
                   Icons.person,
@@ -33,6 +34,7 @@ class FirstScreen extends StatelessWidget {
               ),
             ),
             Container(
+              margin: EdgeInsets.symmetric(vertical: 275.0, horizontal: 25.0),
               child: IconButton(
                 icon: Image.asset(
                   'asset/img/diceweb.png',

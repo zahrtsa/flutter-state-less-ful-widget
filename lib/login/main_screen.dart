@@ -46,7 +46,7 @@ class MainScreen extends StatelessWidget {
               endIndent: 100,
             ),
             Card(
-              color: Colors.deepPurple[200],
+              color: Colors.indigo[200],
               shape: RoundedRectangleBorder(
                 side: BorderSide(color: Colors.white, width: 2),
                 borderRadius: BorderRadius.circular(40),
